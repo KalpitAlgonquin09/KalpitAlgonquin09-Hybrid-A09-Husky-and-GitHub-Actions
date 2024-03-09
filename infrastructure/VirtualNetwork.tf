@@ -4,7 +4,7 @@ provider "azurerm" {
 
 # Define the existing Azure Resource Group
 resource "azurerm_resource_group" "example" {
-  name     = "CST8918"        # Name of the existing resource group
+  name     = CST8918"        # Name of the existing resource group
   location = "Canada Central" # Location for the resource group
 }
 
